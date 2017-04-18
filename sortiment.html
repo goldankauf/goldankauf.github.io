@@ -1,0 +1,202 @@
+<html>
+  <head>
+    <title>Starter Project</title>
+
+    <!-- Normalize HTML5 Reset -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+
+    <!-- styles.css Link -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
+
+    <!-- Responsive Shizz -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  </head>
+
+  <body>
+
+<!--- HEADER HERO --------------------------------------->
+
+<header>
+
+<a class="menu"><i class="fa fa-align-right"></i></a>
+
+<nav id="main_nav">
+  <ul>
+    <li>Home</li>
+    <li>Ankauf</li>
+    <li>Verkauf</li>
+    <li>Kontakt</li>
+  </ul>
+</nav>
+
+</header>
+
+
+
+<!--- SECTION HERO --------------------------------------->
+
+<section id="hero">
+
+  <div class="wrapper">
+
+    <div class="wrapper_inner">
+      <h2>Unser Geschaeft</h2>
+      <h4>Kommen Sie vorbei und machen Sie sich ein Bild.</h4>
+    </div>
+
+  </div>
+
+</section>
+
+<!--- SECTION AREA1 ------------------------------------->
+
+<section id="area-page2">
+
+  <div class="wrapper">
+
+    <h2 class="title">In Simmern</h2>
+
+    <p class="page2-text">Simmern wir habn Schmuk vong Verkauf her,
+      ist aba teuer, lol. next level plaid,
+      master cleanse sartorial drinking vinegar
+      fixie knausgaard flexitarian flannel
+      gochujang etsy vape. Gochujang vaporware
+      hella hell of, flannel single-origin coffee
+      raclette copper mug vice pabst small batch
+      runch pug salvia pok pok.</p>
+
+
+    <div class="beschreibung">
+
+        <div class="image-beschreibung">
+          <img src="/img/schmuck.png" width="200px" alt="">
+        </div>
+
+        <div class="beschreibung2">
+          <h2>Schmuck</h2>
+          <p>Simmern wir habn Schmuk vong Verkauf her, ist aba teuer, lol. next level plaid, master cleanse sartorial drinking vinegar fixie knausgaard flexitarian flannel gochujang etsy vape. Gochujang vaporware hella hell of, flannel single-origin coffee raclette copper mug vice pabst small batch runch pug salvia pok pok.</p>
+        </div>
+
+    </div>
+
+
+    <div class="beschreibung">
+
+        <div class="image-beschreibung">
+          <img src="/img/schmuck.png" width="200px" alt="">
+        </div>
+
+        <div class="beschreibung2">
+          <h2>Schmuck</h2>
+          <p>Simmern wir habn Schmuk vong Verkauf her, ist aba teuer, lol. next level plaid, master cleanse sartorial drinking vinegar fixie knausgaard flexitarian flannel gochujang etsy vape. Gochujang vaporware hella hell of, flannel single-origin coffee raclette copper mug vice pabst small batch runch pug salvia pok pok.</p>
+        </div>
+
+    </div>
+
+
+    <div class="beschreibung last">
+
+        <div class="image-beschreibung">
+          <img src="/img/schmuck.png" width="200px" alt="">
+        </div>
+
+        <div class="beschreibung2">
+          <h2>Schmuck</h2>
+          <p>Simmern wir habn Schmuk vong Verkauf her, ist aba teuer, lol. next level plaid, master cleanse sartorial drinking vinegar fixie knausgaard flexitarian flannel gochujang etsy vape. Gochujang vaporware hella hell of, flannel single-origin coffee raclette copper mug vice pabst small batch runch pug salvia pok pok.</p>
+        </div>
+
+    </div>
+
+
+
+</section>
+
+
+
+
+<!--- SECTION AREA5 ------------------------------------->
+
+<section id="area5">
+
+  <div class="wrapper">
+
+  <h2 class="title">Kontakt</h2>
+
+  <div class="inner_wrapper">
+
+  <div class="inner1">
+    <img src="/img/icon1.svg" alt="">
+    <h4>0186 256 368 21</h4>
+    <p>Erreicbar von 12:00 bis 12:00 Uhr. Kosten fuer Gespraech 12 Cent pro Anruf</p>
+  </div>
+
+
+  <div class="inner1">
+    <img src="/img/icon1.svg" alt="">
+    <h4>Info@Karatas.de</h4>
+    <p>Erreicbar von 12:00 bis 12:00 Uhr. Kosten fuer Gespraech 12 Cent pro Anruf</p>
+  </div>
+
+  </div>
+
+  <div class="formular">
+    <h5>Oder nutzen Sie das Formular</h5>
+
+    <form class="" action="index.html" method="post">
+      <input type="Name" name="" value="" placeholder="Name">
+      <input type="Email" name="" value="" placeholder="Email">
+      <textarea rows="7"></textarea>
+      <input type="submit" name="Submit" value="Senden" placeholder="Submit">
+    </form>
+  </div>
+</section>
+
+<!--- FOOTER ------------------------------------->
+<footer class="footernav">
+
+<nav >
+  <ul>
+    <li>Geschaeft</li>
+    <li>Sortiment</li>
+    <li>Impressum</li>
+  </ul>
+</nav>
+
+  <a class="celona" href="www.celonawebdesign.com"> &copy; Design by Celona Web Design</a>
+
+
+
+
+
+</footer>
+<!--- FOOTER ENDE ------------------------------------->
+
+<script>
+
+$(document).ready(function() {
+
+$('.menu').click(function(e) {
+  e.stopPropagation();
+  $('#main_nav').toggleClass('active');
+});
+
+$(document).click(function() {
+  $('#main_nav').removeClass('active');
+  });
+});
+
+</script>
+
+  </body>
+
+
+
+</html>

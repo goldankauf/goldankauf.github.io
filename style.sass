@@ -46,9 +46,13 @@ $title: 3.157rem
   #main_nav.active
     display: block
     width: 100%
-    background-color: #5396fd
+    background-color: #ba8a2a
     li
       border-bottom: 1px solid white
+      padding-bottom: 15px
+      color: white
+     a
+      border-right: none
   .menu
     position: relative
     z-index: 1
@@ -60,7 +64,10 @@ $title: 3.157rem
       font-size: 1.43rem
       float: right
 
-
+.menu::after
+  clear: both
+  content: ""
+  display: table
 
 // HERO SECTION STYLES --------------------------------
 #hero

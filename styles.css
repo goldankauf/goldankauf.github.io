@@ -144,6 +144,7 @@ header {
 
     #hero .wrapper_hero .unten_hero {
       width: 100%;
+      max-width: 100%
       position: absolute;
       bottom: 0;
       flex-direction: column;

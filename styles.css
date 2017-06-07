@@ -209,17 +209,6 @@ header {
           letter-spacing: 6.5;
           font-size: 0.7rem;
           text-transform: uppercase; }
-      #hero .wrapper_hero .unten_hero {
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-        #hero .wrapper_hero .unten_hero .unter {
-          text-align: center;
-          line-height: 1.5rem;
-          letter-spacing: 0.03rem;
-          color: white;
-          position: absolute;
-          bottom: 50px; } }
 #area1 .wrapper {
   padding-top: 100px;
   padding-bottom: 20px;

@@ -153,6 +153,7 @@ header {
         bottom: 50px; }
 
 #arrow {
+  transform: translateX(-50%);
   animation: hop 0.8s infinite;
   bottom: 1px;
   position: absolute; }

@@ -184,13 +184,17 @@ header {
     transform: translateY(1px); } }
 
 @media only screen and (max-width: 600px) {
+  
   #hero {
     height: 600px; }
+  
     #hero .wrapper_hero {
       height: 600px; }
+  
       #hero .wrapper_hero .title_hero {
         position: relative;
         left: auto; }
+  
         #hero .wrapper_hero .title_hero #small.first {
           border-top: 1px solid #dbc4a1;
           color: white;
@@ -200,18 +204,20 @@ header {
           font-size: 0.7rem;
           text-transform: uppercase;
           text-align: center; }
+  
         #hero .wrapper_hero .title_hero #big {
           color: #dbc4a1;
           font-size: 2rem;
           margin: 5px 0 5px 0;
           text-align: center; }
+  
         #hero .wrapper_hero .title_hero #small.sec {
           text-align: center;
           margin: 0;
           color: white;
           letter-spacing: 6.5;
           font-size: 0.7rem;
-          text-transform: uppercase; }
+          text-transform: uppercase; }}
   
 #area1 .wrapper {
   padding-top: 100px;

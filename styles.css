@@ -150,6 +150,7 @@ header {
         line-height: 1.5rem;
         color: white;
         position: absolute;
+        transform: translateX(-50%);
         bottom: 50px; }
 
 #arrow {

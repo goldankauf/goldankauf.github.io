@@ -141,23 +141,23 @@ header {
         color: white;
         letter-spacing: 7.5;
         font-size: 1rem; }
+
     #hero .wrapper_hero .unten_hero {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      flex-direction: column;
       display: flex;
       justify-content: center;
       align-items: center; }
       #hero .wrapper_hero .unten_hero .unter {
         text-align: center;
         line-height: 1.5rem;
-        color: white;
-        position: absolute;
-        transform: translateX(-50%);
-        bottom: 50px; }
+        color: white; }
 
 #arrow {
-  transform: translateX(-50%);
   animation: hop 0.8s infinite;
-  bottom: 1px;
-  position: absolute; }
+ }
 
 @-webkit-keyframes hop {
   0% {

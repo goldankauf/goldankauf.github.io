@@ -113,6 +113,7 @@ header {
   height: 800px;
   background-image: url(/img/hero.jpg);
   background-size: cover;
+  width: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed; }
   #hero .wrapper_hero {

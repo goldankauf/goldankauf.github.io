@@ -351,9 +351,6 @@ header {
   text-align: center;
   position: relative;
   margin: 0 auto; }
-  #area4 img {
-    position: absolute;
-    top: -30px; }
   #area4 .wrapper {
     width: 800px;
     text-align: center; }
@@ -390,6 +387,10 @@ header {
         #area4 .wrapper .preise_wrapper .preise .preis.gold {
           font-size: 2.5em;
           color: #D5C2A5; }
+
+  #arrow2 {
+    position: absolute;
+    top: -30px; }
 
 @media only screen and (max-width: 500px) {
   #area4 .wrapper {
@@ -629,7 +630,3 @@ footer {
   width: 50%;
   margin: 0 auto; }
 
-#charte {
-position: relative;
-top: 0;
-}

@@ -12,8 +12,9 @@ body, html {
 
 .untertitle {
   color: #B4B4B4;
-  letter-spacing: 7.5;
-  font-size: 0.6rem;
+  letter-spacing: 5;
+  font-size: 0.9rem;
+  margin-bottom: 0em;
   text-transform: uppercase; }
 
 .text {
@@ -63,6 +64,8 @@ header {
         padding: 15px;
         color: white;
         letter-spacing: 0.03rem; }
+      header #main_nav ul li:hover {
+        color: #d3bc9a }
 
 #menu {
   display: none; }
@@ -391,6 +394,7 @@ header {
 
   #arrow2 {
     position: absolute;
+    transform: translateX(-50%);
     top: -30px; }
 
 @media only screen and (max-width: 500px) {
@@ -444,7 +448,7 @@ header {
         padding: 10px;
         text-align: center; }
       #area5 .wrapper .inner_wrapper .inner1 p {
-        color: #979797;
+        color: #bcbcbc;
         font-weight: 300;
         padding: 0;
         margin: 0;

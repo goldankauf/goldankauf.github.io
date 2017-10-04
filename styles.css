@@ -207,6 +207,8 @@ header {
   
       #hero .wrapper_hero .title_hero {
         position: relative;
+        width: 90%;
+        margin: 0 auto;
         left: auto; }
   
         #hero .wrapper_hero .title_hero #small.first {
@@ -221,7 +223,7 @@ header {
   
         #hero .wrapper_hero .title_hero #big {
           color: #dbc4a1;
-          font-size: 4rem;
+          font-size: 3.1rem;
           Font-Family: 'Playfair Display', Serif;
           margin: 5px 0 5px 0;
           text-align: center; }

@@ -105,9 +105,11 @@ header {
     #main_nav.active ul {
       padding-left: 0px; }
     #main_nav.active li {
+      font-size: 2em;
+      font-weight: 800;
       display: block;
       padding: 30px;
-      color: #1e1813; }
+      color: white; }
 
   #logo {
     display: block;

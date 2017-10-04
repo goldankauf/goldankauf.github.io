@@ -74,6 +74,11 @@ header {
   display: block; }
 
 @media only screen and (max-width: 600px) {
+  
+  header {
+  padding: 00px 0px 12px 0px; }
+  
+  
   #menu {
     display: block;
     padding-top: 10px;
@@ -112,7 +117,7 @@ header {
       color: white; }
 
   #logo {
-    display: block;
+    display: none;
     padding: 20px; } }
 #hero {
   height: 800px;
@@ -210,13 +215,13 @@ header {
           letter-spacing: 6.5;
           margin: 0;
           padding-top: 15px;
-          font-size: 0.7rem;
+          font-size: 1rem;
           text-transform: uppercase;
           text-align: center; }
   
         #hero .wrapper_hero .title_hero #big {
           color: #dbc4a1;
-          font-size: 2rem;
+          font-size: 4rem;
           Font-Family: 'Playfair Display', Serif;
           margin: 5px 0 5px 0;
           text-align: center; }

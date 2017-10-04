@@ -103,6 +103,7 @@ header {
     text-align: center;
     height: 100vh; }
     #main_nav.active ul {
+      padding-top: 4em;
       padding-left: 0px; }
     #main_nav.active li {
       font-size: 2em;

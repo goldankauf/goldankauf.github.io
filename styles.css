@@ -201,6 +201,7 @@ header {
       height: 500px; }
   
       #hero .wrapper_hero .title_hero {
+        margin-top: -100px;
         position: relative;
         width: 90%;
         margin: 0 auto;

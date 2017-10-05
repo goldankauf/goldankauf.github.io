@@ -88,11 +88,7 @@ header {
     font-size: 1.5rem; }
 
   #menu.active {
-    color: white;
-    position: absolute;
-    top: 10px;
-    left: 30px;
-    border: none; }
+    color: white; }
 
   #main_nav {
     display: none;

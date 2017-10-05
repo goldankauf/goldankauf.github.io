@@ -195,10 +195,10 @@ header {
 @media only screen and (max-width: 600px) {
   
   #hero {
-    height: 600px; }
+    height: 500px; }
   
     #hero .wrapper_hero {
-      height: 600px; }
+      height: 500px; }
   
       #hero .wrapper_hero .title_hero {
         position: relative;

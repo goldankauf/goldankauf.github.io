@@ -5,6 +5,7 @@ body, html {
   font-family: "Playfair Display", serif; }
 
 .title {
+  line-height: 1.2em;
   font-size: 3rem;
   color: #dbc4a1;
   text-align: center;

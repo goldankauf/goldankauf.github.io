@@ -366,6 +366,7 @@ header {
     #area2 .wrapper .artikel {
       flex-direction: column; }
       #area2 .wrapper .artikel .bild img {
+        border: 3px solid #e5d0a8;
         float: none; }
       #area2 .wrapper .artikel .textarea {
         width: 100%;

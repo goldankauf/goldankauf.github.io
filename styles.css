@@ -38,6 +38,7 @@ color: #aaaaaa;}
   font-family: "Roboto", sans-serif; }
 
 .wrapper {
+  text-align: center;
   width: 1060px;
   max-width: 90%;
   margin: 0 auto;

@@ -276,11 +276,11 @@ header {
     clear: both;
     content: "";
     display: table; }
+  
   #area1 .wrapper .links {
     width: 70%;
     float: left; }
-    #area1 .wrapper .links h2 {
-      font-size: 2rem; }
+
   #area1 .wrapper .rechts {
     width: 40%;
     float: right; } }

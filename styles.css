@@ -351,7 +351,7 @@ header {
           color: #5c5c5c;
           font-family: "Roboto", sans-serif; } }
 #area3 .wrapper {
-  width: 800px;
+  width: 1060px;
   text-align: center; }
   #area3 .wrapper .title {
     font-size: 3rem;
@@ -370,11 +370,11 @@ header {
         font-size: 1rem;
         letter-spacing: 0.1rem;
         font-weight: 800; }
+
       #area3 .wrapper .wrapper_vorteile .vorteil .icon_text {
         color: #B9B9B9;
+        line-height: 1.5em;
         font-family: "Roboto", sans-serif;
-        font-size: 0.9rem;
-        letter-spacing: 0.03rem;
         font-weight: 300; }
 
 @media only screen and (max-width: 500px) {

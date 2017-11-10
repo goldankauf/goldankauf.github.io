@@ -673,12 +673,12 @@ footer {
 
 .liste {
   width: 200px;
-  margin: 0 auto;
-  margin-top: -20px; }
+  margin: 0 auto; }
 
   .liste li {
     padding-top: 10px;
     color: #939393;
+    text-align: left;
     font-size: 1.2rem;
     letter-spacing: 0.09rem; }
 

@@ -20,6 +20,11 @@ font-size: 1.5em;
 line-height: 1.5;
 margin: 35px auto;}
 
+.bildraum {
+max-width: 100%;
+width: 460px;
+}
+
 a {
 text-decoration: none;
 color: #aaaaaa;}

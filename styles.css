@@ -285,9 +285,14 @@ header {
       clear: both;
       content: "";
       display: table; }
+
+
+    #area2 .wrapper .artikel .bild{
+      text-align: center }
+
+
     #area2 .wrapper .artikel .bild img {
       width: 250px;
-      float: left;
       margin: .2em;
       max-width: 90%; }
     #area2 .wrapper .artikel .textarea {
@@ -301,6 +306,8 @@ header {
         color: #5c5c5c;
         font-family: "Roboto", sans-serif; }
 
+
+
 @media only screen and (max-width: 700px) {
   #area2 .wrapper {
     padding-top: 0px;
@@ -308,8 +315,7 @@ header {
     #area2 .wrapper .artikel {
       flex-direction: column; }
       #area2 .wrapper .artikel .bild img {
-        float: none;
-        margin: 0 auto; }
+        float: none; }
       #area2 .wrapper .artikel .textarea {
         width: 100%;
         float: none;

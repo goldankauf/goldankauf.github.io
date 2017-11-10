@@ -4,6 +4,13 @@ body, html {
   -webkit-font-smoothing: antialiased;
   font-family: "Playfair Display", serif; }
 
+h1 {
+    text-align: center;
+    padding-top: 2em;
+    color: #686868;
+}
+
+
 .title {
   line-height: 1.2em;
   font-size: 3rem;

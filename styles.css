@@ -4,6 +4,10 @@ body, html {
   -webkit-font-smoothing: antialiased;
   font-family: "Playfair Display", serif; }
 
+iframe {
+max-width: 90%;
+}
+
 h1 {
 text-align: center;
 padding-top: 2em;
@@ -23,6 +27,7 @@ margin: 35px auto;}
 #bildraum {
 max-width: 100%;
 width: 460px;
+padding-bottom: 2em;
 }
 
 a {
@@ -326,6 +331,16 @@ header {
       grid-column-gap: 10px;
       text-align: center }
 
+
+@media only screen and (max-width: 700px) { 
+  
+    #area2 .wrapper .artikel .bild{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-column-gap: 10px;
+      text-align: center }
+
+}
 
     #area2 .wrapper .artikel .bild img {
       width: 250px;

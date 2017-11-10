@@ -12,6 +12,12 @@ width: 700px;
 max-width: 90%;
 margin: 0 auto;}
 
+.direction {
+color: #b4b4b4;
+width: 400px;
+max-width: 90%;
+margin: 35px auto;}
+
 a {
 text-decoration: none;
 color: #aaaaaa;}

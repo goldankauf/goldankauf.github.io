@@ -300,8 +300,8 @@ header {
 
     #area2 .wrapper .artikel .bild img {
       width: 250px;
-      margin: .2em;
       max-width: 90%; }
+
     #area2 .wrapper .artikel .textarea {
       padding-left: 30px;
       box-sizing: border-box; }

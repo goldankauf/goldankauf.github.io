@@ -337,13 +337,13 @@ header {
     #area2 .wrapper .artikel .bild{
       display: grid;
       grid-template-columns: 1fr;
-      grid-column-gap: 10px;
+      grid-row-gap: 20px;
       text-align: center }
 
 }
 
     #area2 .wrapper .artikel .bild img {
-      width: 250px;
+      width: 400px;
       max-width: 90%; }
 
     #area2 .wrapper .artikel .textarea {

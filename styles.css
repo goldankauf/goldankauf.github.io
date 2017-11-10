@@ -406,6 +406,12 @@ header {
         font-family: "Roboto", sans-serif;
         font-weight: 300; }
 
+@media only screen and (max-width: 848px) {
+  #area3 .wrapper .wrapper_vorteile .vorteil {
+  width: 450px;
+  max-width: 90%; }
+}
+
 @media only screen and (max-width: 500px) {
   #area3 .wrapper {
     width: 800px;

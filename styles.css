@@ -273,15 +273,18 @@ header {
   #area1 .wrapper .rechts {
     width: 40%;
     float: right; } }
+
 #area2 .wrapper {
   width: 800px;
   padding-top: 10px;
   padding-bottom: 50px; }
+
   #area2 .wrapper .artikel {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center; }
+
     #area2 .wrapper .artikel::after {
       clear: both;
       content: "";

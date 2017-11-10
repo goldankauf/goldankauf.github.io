@@ -241,15 +241,26 @@ header {
   display: flex;
   justify-content: center;
   align-items: center; }
+
+
   #area1 .wrapper::after {
     clear: both;
     content: "";
     display: table; }
+
+
   #area1 .wrapper .links {
     width: 30%;
     float: left;
     position: relative;
     display: inline-block; }
+
+
+  #area1 .wrapper .links .title {
+    text-align: left;
+    margin-left: 0; }
+
+
     #area1 .wrapper .links img {
       position: absolute;
       top: -50px;

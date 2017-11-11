@@ -421,7 +421,7 @@ header {
 
 
       #area3 .wrapper .wrapper_vorteile .vorteil .icon_text strong {
-        color: black;
+        color: rgba(178, 158, 132, 1);
         font-weight: 800; }
 
 @media only screen and (max-width: 848px) {

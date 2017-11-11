@@ -413,10 +413,16 @@ header {
         font-weight: 800; }
 
       #area3 .wrapper .wrapper_vorteile .vorteil .icon_text {
-        color: #B9B9B9;
+        color: #8a8a8a;
         line-height: 1.5em;
         font-family: "Roboto", sans-serif;
         font-weight: 300; }
+
+
+
+      #area3 .wrapper .wrapper_vorteile .vorteil .icon_text strong {
+        color: black;
+        font-weight: 800; }
 
 @media only screen and (max-width: 848px) {
   #area3 .wrapper .wrapper_vorteile .vorteil {

@@ -70,6 +70,9 @@ color: #aaaaaa;}
   color: #5c5c5c;
   font-family: "Roboto", sans-serif; }
 
+.text .mitte {
+  text-align: center;}
+
 .wrapper {
   text-align: center;
   width: 1060px;

@@ -47,7 +47,7 @@ padding-bottom: 2em;
 
 a {
 text-decoration: none;
-color: #aaaaaa;}
+color: #b88941;}
 
 .title {
   line-height: 1.2em;
@@ -117,11 +117,11 @@ header {
   display: block; }
 
 @media only screen and (max-width: 600px) {
-  
+
   header {
   padding: 00px 0px 12px 0px; }
-  
-  
+
+
   #menu {
     display: block;
     padding-top: 10px;
@@ -236,20 +236,20 @@ header {
     transform: translateY(1px); } }
 
 @media only screen and (max-width: 600px) {
-  
+
   #hero {
     height: 500px; }
-  
+
     #hero .wrapper_hero {
       height: 500px; }
-  
+
       #hero .wrapper_hero .title_hero {
         margin-top: -100px;
         position: relative;
         width: 90%;
         margin: 0 auto;
         left: auto; }
-  
+
         #hero .wrapper_hero .title_hero #small.first {
           border-top: 1px solid #dbc4a1;
           color: white;
@@ -259,14 +259,14 @@ header {
           font-size: 1rem;
           text-transform: uppercase;
           text-align: center; }
-  
+
         #hero .wrapper_hero .title_hero #big {
           color: #dbc4a1;
           font-size: 3.1rem;
           Font-Family: 'Playfair Display', Serif;
           margin: 5px 0 5px 0;
           text-align: center; }
-  
+
         #hero .wrapper_hero .title_hero #small.sec {
           text-align: center;
           margin: 0;
@@ -274,7 +274,7 @@ header {
           letter-spacing: 6.5;
           font-size: 0.7rem;
           text-transform: uppercase; }}
-  
+
 #area1 .wrapper {
   padding-top: 60px;
   padding-bottom: 20px;
@@ -317,7 +317,7 @@ header {
     clear: both;
     content: "";
     display: table; }
-  
+
   #area1 .wrapper .links {
     width: 70%;
     float: left; }
@@ -335,7 +335,7 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     padding-top: 1em;}
 
     #area2 .wrapper .artikel::after {
@@ -351,8 +351,8 @@ header {
       text-align: center }
 
 
-@media only screen and (max-width: 700px) { 
-  
+@media only screen and (max-width: 700px) {
+
     #area2 .wrapper .artikel .bild{
       display: grid;
       grid-template-columns: 1fr;

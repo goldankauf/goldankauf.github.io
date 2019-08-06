@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59px" height="60px" viewBox="0 0 59 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 118</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M718.92375,766.00275 C718.94575,765.71975 718.85975,765.43175 718.64375,765.21575 L709.72075,756.30775 C709.32775,755.91475 708.68975,755.91475 708.29475,756.30775 C707.90175,756.70175 707.90175,757.33875 708.29475,757.73175 L716.58075,766.00275 L708.29475,774.27475 C707.90175,774.66675 707.90175,775.30475 708.29475,775.69775 C708.68975,776.09075 709.32775,776.09075 709.72075,775.69775 L718.64375,766.79075 C718.85975,766.57475 718.94575,766.28675 718.92375,766.00275 L718.92375,766.00275 Z M730.74275,765.21575 L719.80375,754.29475 C719.41075,753.90175 718.77175,753.90175 718.37775,754.29475 C717.98375,754.68875 717.98375,755.32575 718.37775,755.71875 L728.67875,766.00275 L718.37775,776.28775 C717.98375,776.68075 717.98375,777.31775 718.37775,777.71075 C718.77175,778.10375 719.41075,778.10375 719.80375,777.71075 L730.74275,766.79075 C730.95775,766.57475 731.04375,766.28675 731.02275,766.00275 C731.04375,765.71975 730.95775,765.43175 730.74275,765.21575 L730.74275,765.21575 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-3" transform="translate(-688.000000, -736.000000)">
+            <g id="Fill-118" transform="translate(719.512910, 766.002750) rotate(-270.000000) translate(-719.512910, -766.002750) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
